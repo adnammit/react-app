@@ -1,9 +1,29 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+POC application to learn tailwind and how to use React in an it's-not-2016-anymore kind of way.
 
-Currently, two official plugins are available:
+## Quick Start
+```bash
+  npm i && npm run dev
+```
 
+## Setup
+This project was created using the [`react-ts` template for Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
+```bash
+  npm create vite@latest react-vite-app -- --template react-ts
+```
+
+Other requirements/suggestions:
+* Prettier vscode extension
+* Tailwind CSS IntelliSense vscode extension
+
+
+## Tailwind CSS
+* [docs](https://tailwindcss.com/docs/installation)
+* tailwind installed with Vite
+
+
+## Vite
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
